@@ -8,7 +8,7 @@ openai.api_key = 'YOUR_API_KEY'
 def hello_world_openai():
     response = openai.Completion.create(
         engine="text-davinci-002",  # You can choose other models
-        prompt="Hello World, this is a test of the OpenAI API. The response should be:",
+        prompt="Hello World!",
         max_tokens=50
     )
     return response.choices[0].text.strip()
