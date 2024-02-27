@@ -11,7 +11,7 @@ This simple Python application demonstrates the use of the OpenAI GPT-3 API to g
 ### 1. OpenAI API Key
 
 - Obtain an API key from the OpenAI platform. You can sign up for access [here](https://beta.openai.com/signup/).
-- Replace 'your-api-key' in the code with your actual API key.
+- Replace 'YOUR_API_KEY' in the code with your actual API key.
 
 ### 2. Python and Dependencies
 
